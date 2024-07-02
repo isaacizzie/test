@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testing my ability</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css" integrity="sha384-BY+fdrpOd3gfeRvTSMT+VUZmA728cfF9Z2G42xpaRkUGu2i3DyzpTURDo5A6CaLK" crossorigin="anonymous"> -->
+</head>
+
+<body>
+    <section class="header">
+
+        <nav>
+            <div class="logo">
+                <a href=""><img src="image/Untitled-removebg-preview.png"></a>
+
+            </div>
+            <div class="nav-link" id="navlink">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Portfolio</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+               
+            </div> 
+                <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+
+    </section>
+
+    <!-- --------Services-------->
+    <section class="Services">
+        <h1>Services</h1>
+        <p>We offer different section of Services</p>
+        <div class="row">
+            <div class="services-col">
+                <div class="icon-pin1">
+                    <i class="fa fa-desktop"></i>
+                </div>
+                <h3>LOREM IPSUM</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique quisquam odit ipsam fuga vero
+                    repellat dolore hic vel? Quos alias dolorem qui neque saepe nulla officia molestias ea hic in.
+ 
+                </p>
+            </div>
+
+            <div class="services-col">
+                <div class="icon-pin2">
+                    <i class="fa fa-line-chart"></i>
+                </div>
+                <h3>LOREM IPSUM</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique quisquam odit ipsam fuga vero
+                    repellat dolore hic vel? Quos alias dolorem qui neque saepe nulla officia molestias ea hic in.
+
+                </p>
+            </div>
+
+            <div class="services-col">
+                <div class="icon-pin3">
+                    <i class="fa fa-telegram"></i>
+                </div>
+
+                <h3>LOREM IPSUM</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique quisquam odit ipsam fuga vero
+                    repellat dolore hic vel? Quos alias dolorem qui neque saepe nulla officia molestias ea hic in.
+
+                </p>
+
+            </div>
+
+
+        </div>
+
+        <div class="row">
+            <div class="services-col">
+                <div class="icon-pin4">
+                    <i class="fa fa-bank"></i>
+                </div>
+                <h3>LOREM IPSUM</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique quisquam odit ipsam fuga vero
+                    repellat dolore hic vel? Quos alias dolorem qui neque saepe nulla officia molestias ea hic in.
+
+                </p>
+            </div>
+
+            <div class="services-col">
+                <div class="icon-pin5">
+                    <i class="fa fa-camera-retro"></i>
+                </div>
+                <h3>LOREM IPSUM</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique quisquam odit ipsam fuga vero
+                    repellat dolore hic vel? Quos alias dolorem qui neque saepe nulla officia molestias ea hic in.
+
+                </p>
+            </div>
+
+            <div class="services-col">
+                <div class="icon-pin6">
+                    <i class="fa fa-shopping-bag"></i>
+                </div>
+                <h3>LOREM IPSUM</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique quisquam odit ipsam fuga vero
+                    repellat dolore hic vel? Quos alias dolorem qui neque saepe nulla officia molestias ea hic in.
+
+                </p>
+
+            </div>
+
+    </section>
+
+    <!---------javascript for toggle menu----------->
+    <script>
+        var navlink = document.getElementById("navlink");
+        function showmenu(){
+            navlink.style.right = "0";
+        }
+
+        function hidemenu(){
+            navlink.style.right = "-200px";
+        }
+
+
+
+
+    </script>
+</body>
+
+</html>
